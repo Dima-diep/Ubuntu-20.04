@@ -10,9 +10,10 @@ pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh | bash
 chmod +x *
 ./start-ubuntu20.sh
-sudo -i
 apt update -y
 apt upgrade -y
+apt install sudo -y
+sudo -i
 apt install git -y
 apt install python -y
 apt install python2 -y
