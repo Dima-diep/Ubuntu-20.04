@@ -2,4 +2,4 @@
 
 write it:
 chmod +x *
-./Ubuntu20.04-installer-iso.sh
+./Ubuntu20-04-installer-iso.sh
