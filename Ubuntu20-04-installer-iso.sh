@@ -8,6 +8,7 @@ pkg install curl -y
 pkg install proot -y 
 pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh | bash
+rm -rf Ubuntu20-04-installer-iso.sh
 chmod +x *
 ./start-ubuntu20.sh
 apt update -y
