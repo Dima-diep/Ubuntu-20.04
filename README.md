@@ -5,5 +5,5 @@ OS system = Termux
 write it:
 ```
 $ chmod +x *
-$ ./Ubuntu20-04-installer-iso.sh
+$ bash Ubuntu20-04-installer-iso.sh
 ```
